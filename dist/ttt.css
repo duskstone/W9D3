@@ -1,0 +1,26 @@
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;    
+}
+
+li.untoggled {
+    width: 30px;
+    border: black;
+    border-style: solid;
+    list-style-type: none;
+    background-color: lightgray;
+}
+
+li.toggled {
+    width: 30px;
+    border: black;
+    border-style: solid;
+    list-style-type: none;
+    background-color: grey;
+    
+}
+
+ul li.untoggled:hover {
+    background-color: yellow;
+}
